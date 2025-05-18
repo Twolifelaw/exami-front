@@ -6,8 +6,9 @@ const Home = () => {
     return (
         <div className="min-h-screen flex flex-col bg-gradient-primary">
             <Navbar />
+            <div className="pt-20"></div>
             
-            <main className="flex-grow flex items-center justify-center py-16 px-4">
+            <main className="flex-grow flex items-center justify-center py-8 px-4">
                 <motion.div 
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
